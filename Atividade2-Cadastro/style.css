@@ -6,7 +6,7 @@ body{
 }
 
 .caixa_externa{
-    width: 320px;
+    width: 360px;
     height: 470px;
     background-color: #ffffff;
     border-radius: 2%;
@@ -33,4 +33,14 @@ input[type="text"], input[type="email"], input[type="password"], input[type="dat
 
 .botao:hover{
     background-color: antiquewhite;
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.linha input[type="date"], select{
+    width: 160px;
 }
