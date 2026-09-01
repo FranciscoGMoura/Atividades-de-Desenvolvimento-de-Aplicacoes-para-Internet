@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade2 Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="caixa_externa">
+
+        <br>
+
+        <h2>Cadastro</h2>
+
+        <form action="/enviar" method="post">
+
+            <label for="name">Nome completo:</label>
+
+            <br>
+
+            <input type="text" minlength="3" id="name" placeholder="Digite seu nome!">
+
+            <br><br>
+
+            <label for="e-mail">E-mail:</label>
+
+            <br>
+
+            <input type="email" id="e-mail" minlength="12" placeholder="Digite seu e-mail!">
+
+            <br><br>
+
+            <label for="password">Senha:</label>
+
+            <br>
+
+            <input type="password" id="password" minlength="4" maxlength="12" placeholder="Digite uma senha!">
+
+            <br><br>
+
+            <label for="date_nascimento">Data de Nascimento:</label>
+
+            <br>
+
+            <input type="date" id="date_nascimento">
+
+            <br><br>
+
+            <label for="gender">Gênero:</label>
+
+            <br>
+
+            <select name="gender" id="gender">
+
+                <option value="nothing">Selecione uma opção</option>
+                <option value="male">Masculino</option>
+                <option value="female">Feminino</option>
+                <option value="other">Outro</option>
+                <option value="not say">Prefiro não dizer</option>
+
+            </select>
+
+            <br><br>
+
+            <input type="checkbox" id="term">
+
+            <label for="term">Aceito os termos</label>
+
+            <br><br><br>
+
+            <button class="botao" type="submit">Cadastrar</button>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>

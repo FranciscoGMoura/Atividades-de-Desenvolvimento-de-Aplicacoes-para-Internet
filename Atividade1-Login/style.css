@@ -1,0 +1,30 @@
+body{
+    
+    text-align: center; 
+    margin-top: 100px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background-color: #f0f2f5;
+}
+
+.caixa_log{
+    
+    text-align: center; 
+    border-radius: 1%;
+    border: 2px solid #777777;
+}
+
+.botao{
+    
+    background-color: #28a745; 
+    border-radius: 10%;
+}
+
+.caixa_externa{
+    
+    height: 320px; 
+    width: 320px; 
+    background-color: #ffffff; 
+    margin: 0 auto; 
+    border-radius: 5%; 
+    box-shadow: 0 1px 6px #8b8b8b;
+}
