@@ -18,4 +18,7 @@ Atv05 29/08/2026
 
 Atividade1-Login 01/09/2026
 
-Atividade2-Cadastro 01/09/2026
+~~Atividade2-Cadastro 01/09/2026~~
+
+Atividade2 Cadastro 04/09/2026
+- envio de uma versão diferente da atividade, mais completa e mais detalhada.
